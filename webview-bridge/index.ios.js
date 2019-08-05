@@ -29,13 +29,14 @@ var {
   Text,
   View,
   ViewPropTypes,
-  WebView,
   requireNativeComponent,
   UIManager,
   NativeModules: {
     WebViewBridgeManager,
   },
 } = ReactNative;
+
+var { WebView } = require('react-native-webview');
 
 var BGWASH = 'rgba(255,255,255,0.8)';
 var RCT_WEBVIEWBRIDGE_REF = 'webviewbridge';
